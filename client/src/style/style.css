@@ -1,0 +1,78 @@
+
+.bgimage {
+    background-image: url('../images/P1.jpg');
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: none;
+    text-align: center; 
+    color: white;
+   
+
+  }
+
+  
+  
+  .light {
+    color: lightgray; 
+  }
+  
+  .white {
+    color: white; 
+  } 
+  
+
+  .bgimage::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;
+  }
+  
+ 
+  .bgimage > * {
+    position: relative;
+    z-index: 2;
+  }
+  
+  
+  .light {
+    color: lightgray; 
+  }
+  
+  .white {
+    color: white; 
+  }
+
+
+  .textimage{
+       margin-top: 100px;
+
+  }
+
+  .text-container {
+    position: absolute;
+    top: 55%; 
+    left: 30%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    z-index: 2; 
+  
+  }
+  .image-container {
+    position: absolute;
+    top: 58%; 
+    left: 65%; 
+    transform: translate(-50%, -50%); 
+  
+    z-index: 2; 
+  
+  }
+  
