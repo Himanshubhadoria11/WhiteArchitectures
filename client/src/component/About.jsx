@@ -13,7 +13,13 @@ function About() {
         <h6 className="light">clean and white vision</h6>
          
       </div>
-
+      <div className="textheader">
+        <h6 className="light"><span className="highlight">A</span>bout</h6>
+        
+      
+      <div/> 
+      
+     </div>
     </div>
     
     
