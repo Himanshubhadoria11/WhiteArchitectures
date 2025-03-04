@@ -20,7 +20,9 @@
   
   .nav-link {
     color: white; 
-    margin-left: 80px; 
+    margin-right: 80px;
+    display: inline;
+    mag
   }
   
   .navbar-brand img {

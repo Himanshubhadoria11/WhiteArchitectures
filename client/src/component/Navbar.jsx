@@ -1,16 +1,19 @@
 
 import React from 'react';
 import logo from '../images/Logo.png';
+import '../style/navbar.css'
 
 function Navbar() {
   const navbarStyle = {
     backgroundColor: 'rgba(0, 0, 0, 0.5)', 
     color: 'white',
     border: 'none', 
+    
   };
 
   const navLinkStyle = {
     color: 'white', 
+    
   };
 
   const logoStyle = {
