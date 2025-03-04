@@ -7,7 +7,7 @@ function Services() {
    <div className="servicesbackground">
 
     <div className="servicestextheader">
-    <h6 className="light"><span className="highlight">S</span>ervices</h6>
+    <h6 className="dark"><span className="highlight">S</span>ervices</h6>
 
     </div>
     <div className="servicestextcontainer">
