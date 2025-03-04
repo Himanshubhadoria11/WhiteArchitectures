@@ -1,5 +1,5 @@
 .aboutimage {
-    background-image: url(../images/DesignWhite.png);
+    /* background-image: url(../images/DesignWhite.png); */
     position: relative;
     height: 100vh;
     width: 100vw;
@@ -12,6 +12,9 @@
     
     
 }
+/* .white{
+  margin-top: 250px;
+} */
 .text-containe {
     position: absolute;
     top: 75%; 

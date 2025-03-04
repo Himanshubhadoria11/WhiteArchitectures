@@ -5,6 +5,7 @@ import News from './News'
 import Services from './Services'
 import Contact from './Contact'
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 
 function Home() {
@@ -16,6 +17,7 @@ function Home() {
    <News/>
    <Services/>
    <Contact/>
+   <Footer/>
    </>
   )
 }
